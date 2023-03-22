@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Bebas+Neue&family=DM+Sans&family=Dancing+Script&family=EB+Garamond&family=Libre+Baskerville&family=Lobster&family=Ms+Madi&family=Oswald:wght@200&family=Pacifico&family=Passions+Conflict&family=Roboto+Slab:wght@100&family=Signika+Negative:wght@300&family=Square+Peg&display=swap');
+
+
+/*INICIO*/
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+}
+
+:root{
+background-color: black;
+--second-bg-color: #202020;
+--text-color: #fff;
+--second-color: #ccc;
+--main-color: #ff4d05;
+--big-font: 5rem;
+--h2-font: 3rem;
+--p-font: 2rem;
+
+}
+
+body{
+    background: var(--bag-color);
+    color: var(--text-color);
+}
+
+header{
+  position: fixed;
+  width: 100%;
+  top:0;
+  right: 0;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: transparent;
+  padding: 12px 5%;
+  border-bottom: 1px solid transparent;
+  transition: all .45s ease;
+}
+
+.logo{
+    color: var(--text-color);
+    font-size: 45px;
+    font-weight: 400;
+    letter-spacing: 0px;
+    font-family: 'Passions Conflict', cursive;
+    color: rgb(233, 112, 217);
+}
+
+.navlist{
+    display: flex;
+}
+ 
+.navlist a{
+    color: white;
+    font-size: 10px;
+    font-weight: 200;
+    margin: 0 15px;
+    transition: all .45s ease;
+}
+
+.navlist a:hover{
+    color: #cc5be6;
+}
+
+#menu-icon{
+    font-size: 25px;
+    color: #202020;
+    z-index: 10001;
+    cursor: pointer;
+    display: none;
+    margin-left: 30px;
+}
+
+section{
+   padding: 100px 10% 10px;
+   width: 60px;
+}
+
+
+
+.presentacion{
+    min-height:30px;
+    margin: 0;
+    width:300px; 
+    word-break: break-all;
+  
+}
+
+
+.home{
+    position: relative;
+    height:100vh;
+    width: 100%;
+    background-image: url(./imagenes/Fondo\ cati.jpg);
+    background-size:cover;
+    background-position: center;
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.slide{
+    margin-bottom: 20px;
+}
+
+.one{
+    display: inline-block;
+    margin-right: 15px;
+    height:30px;
+    padding: 0 15px;
+    line-height: 32px;
+    font-size: 25px;
+    font-weight: 400;
+    border-radius: 9px;
+    background: rgb(218, 59, 197);
+    color:white;
+}
+
+
+.two{
+    display: inline-block;
+    color: var(--second-color);
+    font-size: 13px;
+    font-weight:300;
+
+}
+
+
+.home-text h1{
+    font-size: 50px;
+    font-weight: 800;
+    color: var(--text-color);
+    list-style: 1.1;
+    margin: 0 0 8px;
+   
+
+}
+
+.home-text h3{
+    color: var(--text-color);
+    margin: 0 0 20px;
+    font-weight: 500;
+    line-height: 1.1;
+    
+}
+
+
+.home-text p{
+    color: white;
+    font-size: 13px;
+    line-height:1.9;
+}
+
+.button{
+    display:inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.btn{
+    display:inline-block;
+    padding: 5px 30px;
+    background: red;
+    border-radius: 6px;
+    color:white;
+    font-size: 2rem;
+    letter-spacing: 1px;
+    font-weight: 600;
+    transition: all .45 ease;
+
+}
+
+.btn:hover{
+    transform: scale(0.9);
+}
+
+.btn2{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size:15px;
+    font-weight: 400;
+    color: white;
+    margin: 5px;
+}
+
+
+header.sticky{
+    background: black;
+    border-bottom: 1px solid black;
+    padding: 30px 5%;
+   opacity: 75%;
+}
+
+/*SOBRE MI*/
+
+.yo{
+   display: grid;
+   grid-template-columns: repeat(2,1fr);
+   align-items: center;
+   gap: 1.5rem;
+}
+
+yo_img{
+
+    
+}
+
+
+
